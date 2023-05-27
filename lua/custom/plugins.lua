@@ -91,9 +91,6 @@ local plugins = {
     "christoomey/vim-tmux-navigator",
     lazy = false,
   },
-  {
-    "ThePrimeagen/vim-be-good"
-  }
   -- To make a plugin not be loaded
   -- {
   --  s, and yss if you in "NvChad/nvim-colorizer.lua",
