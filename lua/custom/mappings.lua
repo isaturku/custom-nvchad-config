@@ -4,6 +4,10 @@ local M = {}
 M.general = {
   n = {
     [";"] = { ":", "enter command mode", opts = { nowait = true } },
+    ["<C-h>"] = { "<cmd> TmuxNavigate<CR>", "window left" },
+    ["<C-l>"] = { "<cmd> TmuxNavigate<CR>", "window right" },
+    ["<C-j>"] = { "<cmd> TmuxNavigate<CR>", "window down" },
+    ["<C-k>"] = { "<cmd> TmuxNavigate<CR>", "window up" },
   },
 }
 
