@@ -91,6 +91,8 @@ local plugins = {
     "christoomey/vim-tmux-navigator",
     lazy = false,
   },
+  { "tpope/vim-fugitive" },
+  { "mbbill/undotree" },
   -- To make a plugin not be loaded
   -- {
   --  s, and yss if you in "NvChad/nvim-colorizer.lua",
