@@ -8,10 +8,10 @@ M.general = {
     ["<C-l>"] = { "<cmd> TmuxNavigate<CR>", "window right" },
     ["<C-j>"] = { "<cmd> TmuxNavigate<CR>", "window down" },
     ["<C-k>"] = { "<cmd> TmuxNavigate<CR>", "window up" },
-    ["<leader>gs"] = { "<cmd> Git", "Fugitive git status" },
-    ["<leader>gl"] = { "<cmd> diffget //2", "Fugitive get left diff" },
-    ["<leader>gr"] = { "<cmd> diffget //3", "Fugitive get right diff" },
-    ["<leader>u"] = { "<cmd> UndoTreeToggle", "Toggle undo tree" },
+    ["<leader>gs"] = { "<cmd> Git<CR>", "Fugitive git status" },
+    ["<leader>gl"] = { "<cmd> diffget //2<CR>", "Fugitive get left diff" },
+    ["<leader>gr"] = { "<cmd> diffget //3<CR>", "Fugitive get right diff" },
+    ["<leader>u"] = { "<cmd> UndoTreeToggle<CR>", "Toggle undo tree" },
   },
 }
 
