@@ -9,6 +9,7 @@ M.general = {
     ["<C-j>"] = { "<cmd> TmuxNavigate<CR>", "window down" },
     ["<C-k>"] = { "<cmd> TmuxNavigate<CR>", "window up" },
     ["<leader>gs"] = { "<cmd> Git<CR>", "Fugitive git status" },
+    ["<leader>gm"] = { "<cmd> Gvdiffsplit!<CR>", "Fugitive git resolve condflict" },
     ["<leader>gl"] = { "<cmd> diffget //2<CR>", "Fugitive get left diff" },
     ["<leader>gr"] = { "<cmd> diffget //3<CR>", "Fugitive get right diff" },
     ["<leader>u"] = { "<cmd> UndoTreeToggle<CR>", "Toggle undo tree" },
